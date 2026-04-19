@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+profiler_env/
+
+# Data
+data/
+output/
+
+# OS
+.DS_Store

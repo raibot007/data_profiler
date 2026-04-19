@@ -1,0 +1,13 @@
+database: duckdb
+db_path: data/tpcds.db
+
+workers: 4
+
+sampling:
+  enabled: true
+  percent: 10
+
+output:
+  path: output/
+
+resume: true
